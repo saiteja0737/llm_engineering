@@ -1,0 +1,26 @@
+# ATS Resume Optimizer
+
+A Gradio-based AI tool that compares a resume against a job description, improves ATS keyword alignment, and allows chat-based resume refinement.
+
+## Features
+
+- Upload resume as PDF or DOCX
+- Paste a job description
+- Generate ATS keyword and experience-based scoring
+- Rewrite resume bullets using JD-aligned vocabulary
+- Refine skills, projects, and bullets through chat
+- Download the optimized resume as DOCX and PDF
+
+## Tech Stack
+
+- OpenAI API
+- Gradio
+- pdfplumber / pypdf
+- python-docx
+- ReportLab
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+python app.py
